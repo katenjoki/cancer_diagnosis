@@ -49,6 +49,8 @@ The goal of this project was to predict if patients received a metastatic cancer
 * Evaluation metircs such as Precision, Recall, F1-score, Confusion Matrix and the ROC-AUC curve were used to evaluate the models.
 * The XGBoost model, post hyperparameter tuning, was the best classification model!
 
+![ROC Image](./newplot.png)
+
 <h3>Challenges</h3>
 
 * The dataset was very imbalanced with class 1 having ~ 8000 observations and class 0, 4500~ observations. This was addressed by oversampling class 0 observations, improving AUC from 0.81 to 0.86
