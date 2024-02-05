@@ -26,14 +26,15 @@ The goal of this project was to predict if patients received a metastatic cancer
 * Uninformative columns like id, gender (all patients were female) were dropped together with 2 features that had 99% of values being null.
 * The model had imbalanced classes. The class 0 observations were oversampled using the RandomOverSampler package in order to balance the 2 classes and hence, improve model performance.
 
-<h3>Exploratory Data Analysis (Plotly, Matplotib)</h3>
-
+<h3>Exploratory Data Analysis</h3>
+* Packages:- Plotly, Matplotlib
 * To conduct the EDA, I used correlation matrices, scatter plots, histograms, pie charts and bar plots to visualise the relationships between the features.
 * I observed that patients not receiving the metastatic diagnosis within 90 days often had a breast cancer diagnosis code of '1749'. Moreover, patients aged 82 commonly received this breast cancer diagnosis code.
 
 <h3>Modelling</h3>
-<h4>Model Selection (Scikit-learn)</h4>
+<h4>Model Selection</h4>
 
+* Packages:- Scikit-learn, CatBoost, LightGBM, XGBoost
 * Predicting metastatic diagnosis within 90 days (1 for yes, 0 for no) is a **binary classification** problem.
 * The classification features had lots of unique values. Consequently, feature encoding techniques such as one-hot encoding would lead to a high dimension dataset.
 * As a result, I narrowed down the classification models to CatBoost, LightGBM and XGBoost, as they are capable of handling categorical features, without requiring transformation.
