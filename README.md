@@ -27,6 +27,7 @@ The goal of this project was to predict if patients received a metastatic cancer
 * The model had imbalanced classes. The class 0 observations were oversampled using the RandomOverSampler package in order to balance the 2 classes and hence, improve model performance.
 
 <h3>Exploratory Data Analysis</h3>
+
 * Packages:- Plotly, Matplotlib
 * To conduct the EDA, I used correlation matrices, scatter plots, histograms, pie charts and bar plots to visualise the relationships between the features.
 * I observed that patients not receiving the metastatic diagnosis within 90 days often had a breast cancer diagnosis code of '1749'. Moreover, patients aged 82 commonly received this breast cancer diagnosis code.
