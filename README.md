@@ -30,6 +30,7 @@ The goal of this project was to predict if patients received a metastatic cancer
 * Packages:- Plotly, Matplotlib
 * To conduct the EDA, I used correlation matrices, scatter plots, histograms, pie charts and bar plots to visualise the relationships between the features.
 * I observed that patients not receiving the metastatic diagnosis within 90 days often had a breast cancer diagnosis code of '1749'. Moreover, patients aged 82 commonly received this breast cancer diagnosis code.
+![ROC Image](./roc.png)
 
 <h3>Modelling</h3>
 <h4>Model Selection</h4>
@@ -47,9 +48,14 @@ The goal of this project was to predict if patients received a metastatic cancer
 <h4>Evaluation</h4>
 
 * Evaluation metircs such as Precision, Recall, F1-score, Confusion Matrix and the ROC-AUC curve were used to evaluate the models.
-* The XGBoost model, post hyperparameter tuning, was the best classification model!
+* The XGBoost model, post hyperparameter tuning, was the best classification model with a AUC score of ~0.84
 
-![ROC Image](./newplot.png)
+<h5>Model Tracking</h5>
+* Managed and tracked model performance across distinct metrics using **MLflow**. 
+* Logged evaluation metrics and compared baseline and hyper-parameter tuned versions of the models to each other.
+* Visualised and compared the metrics using MLflow UI.
+![MLflow UI Image](./newplot.png)
+
 
 <h3>Challenges</h3>
 

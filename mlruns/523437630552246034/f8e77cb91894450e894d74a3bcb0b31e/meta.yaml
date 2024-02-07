@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/user/Desktop/Projects/wids_2024/mlruns/523437630552246034/f8e77cb91894450e894d74a3bcb0b31e/artifacts
+end_time: 1707313991436
+entry_point_name: ''
+experiment_id: '523437630552246034'
+lifecycle_stage: active
+run_id: f8e77cb91894450e894d74a3bcb0b31e
+run_name: Baseline XGBoost
+run_uuid: f8e77cb91894450e894d74a3bcb0b31e
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1707313989813
+status: 3
+tags: []
+user_id: user

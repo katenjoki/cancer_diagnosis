@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/user/Desktop/Projects/wids_2024/mlruns/523437630552246034/63830b2d591849b894bddee4cc2afc40/artifacts
+end_time: 1707313984415
+entry_point_name: ''
+experiment_id: '523437630552246034'
+lifecycle_stage: active
+run_id: 63830b2d591849b894bddee4cc2afc40
+run_name: Baseline LightGBM
+run_uuid: 63830b2d591849b894bddee4cc2afc40
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1707313979874
+status: 3
+tags: []
+user_id: user
