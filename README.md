@@ -8,6 +8,7 @@
   - [Model Selection](#Model-Selection)  
   - [Model Optimization](#Model-Optimization)
   - [Evaluation](#Evaluation)
+  - [Model Tracking](#Model-Tracking)
 - [Challenges](#Challenges)
 - [Impact](#Impact)
 
@@ -52,9 +53,11 @@ The goal of this project was to predict if patients received a metastatic cancer
 * The XGBoost model, post hyperparameter tuning, was the best classification model.
 
 <h5>Model Tracking</h5>
+
 * Managed and tracked model performance across distinct metrics using **MLflow**. 
 * Logged evaluation metrics and compared baseline and hyper-parameter tuned versions of the models to each other.
 * Visualised and compared the metrics using MLflow UI.
+
 ![MLflow UI Image](./newplot.png)
 
 
